@@ -1,0 +1,13 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    cout << "vvod ygol v gradus: ";
+    double x, y;
+    cin >> x;
+    x = x * 3.14 / 180;
+    y = 2 * x - 2 * cos(x);
+    cout << "chto ravno Y(" << x << ") = " << y << endl;
+    return 0;
+}
