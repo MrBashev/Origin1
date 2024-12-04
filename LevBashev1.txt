@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    cout << "vvod ygol v gradus: ";
+    cout << "vvod ygol GOIDA + GOIDA LOL BOT v gradus: ";
     double x, y;
     cin >> x;
     x = x * 3.14 / 180;
